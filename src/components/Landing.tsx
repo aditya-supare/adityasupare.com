@@ -28,11 +28,11 @@ const Landing = () => {
 
             <TextGenerateEffect 
               className='text-center text-[40px] md:text-5xl lg:text-6xl'
-              words='Making Ideas Feel Natural'
+              words='Making Ideas Feel Alive'
             />
 
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-              Hi, I&apos;m Aditya Supare, a Next.js Developer And 2D/3D artist based in India.
+              Hi, I&apos;m Aditya Supare, a Next.js Developer and 2D/3D artist based in India.
             </p>
 
             <a href='#about'>

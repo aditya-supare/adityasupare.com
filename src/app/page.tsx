@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaHome } from "react-icons/fa";
+import Grid from "~/components/Grid";
 import Landing from "~/components/Landing";
 import { FloatingNav } from "~/components/ui/FloatingNav";
 
@@ -11,6 +12,7 @@ export default function HomePage() {
           {name: 'Home', link: '/', icon: <FaHome />}
         ]} />
         <Landing />
+        <Grid/>
       </div>
     </main>
   );
