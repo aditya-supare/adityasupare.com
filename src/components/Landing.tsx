@@ -37,12 +37,11 @@ const Landing = () => {
 
             <a href='#about'>
               <MagicButton 
-               title ="show my work"
+               title ="Show my work"
                icon={<FaLocationArrow/>}
                position='right'
                />
             </a>
-
           </div>
         </div>
     </div>
