@@ -10,52 +10,62 @@ export const navItems = [
       id: 1,
       title: "I prioritize client collaboration, fostering open communication ",
       description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
+      className: "lg:col-span-5 lg:row-span-2 md:col-span-6 row-span-4 lg:min-h-[60vh]",
+      imgClassName: "w-full h-1/2 sm:h-full sm:object-cover sm:object-center",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/soul2.gif",
       spareImg: "",
     },
     {
       id: 2,
       title: "I'm very flexible with time zone communications",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
+      className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-2",
+      imgClassName: "w-full h-50 sm:h-full sm:object-cover sm:object-center",
       titleClassName: "justify-start",
-      img: "",
+      img: "/sky.png",
       spareImg: "",
     },
     {
       id: 3,
       title: "My tech stack",
       description: "I constantly try to improve",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
+      className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-2",
+      imgClassName: "w-100 h-full fade-right sm:w-70 sm:h-full",
       titleClassName: "justify-center",
-      img: "",
+      img: "/grassvend.gif",
       spareImg: "",
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "3D enthusiast with a passion for web development.",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
+      className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-1",
+      imgClassName: "w-full h-1/2 sm:h-full sm:object-cover sm:object-center",
       titleClassName: "justify-start",
-      img: "/grid.svg",
+      img: "/sea.gif",
       spareImg: "/b4.svg",
     },
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building scripts for optimise pipelines in 3D softwares",
       description: "The Inside Scoop",
-      className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+      className: "lg: col-span-1 md:col-span-3 md:row-span-2",
+      imgClassName: "absolute left-0 bottom-0 md:w-96 w-60 fade-right",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
+      img: "/ramen.gif",
       spareImg: "/grid.svg",
+    },
+    {
+      id: 7,
+      title: "With a passion of making amazing visuals",
+      description: "",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      imgClassName: "w-full h-1/2 sm:h-full sm:object-cover sm:object-center",
+      titleClassName: "justify-center md:justify-start lg:justify-center",
+      img: "/joji.gif",
+      spareImg: "",
     },
     {
       id: 6,
@@ -67,75 +77,53 @@ export const navItems = [
       img: "",
       spareImg: "",
     },
+    {
+      id: 8,
+      title: "30+ clients across the globe",
+      description: "",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      imgClassName: "h-50 w-50 fade-down",
+      titleClassName: "justify-center md:max-w-full max-w-60 text-zinc",
+      img: "/anotar.gif",
+      spareImg: "",
+    },
   ];
   
   export const projects = [
     {
       id: 1,
-      title: "SOUL-3D Realistic Eye",
-      des: "A realistic 3D human eye in Blender with detailed iris textures, glossy cornea, and natural reflections.",
+      title: "GrantX",
+      des: "API Key Management System with PNPM Package",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/openheart-apps/grantx",
     },
     {
       id: 2,
-      title: "Vending on grass",
-      des: "Used procedural grass using geometry nodes with a vending machine made from meshes and grease pencil.",
+      title: "CineSync",
+      des: "featuring trending and top-rated movies, where users can rate films individually.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/aditya-supare/Cine-SyncV2",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Cosmic-Calm",
+      des: "Developed a personalized meditation platform which gives users access to the pleasing audios and images.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/aditya-supare/Cosmic-Calm",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "Exam-gpt",
+      des: "AI bot to assist individuals in exam preparation by offering resources, identifying top coaching institutes in their area, outlining exam criteria, and providing specific syllabi for their exams.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com/aditya-supare/Ed-GPT",
     },
   ];
-  
-  export const testimonials = [
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-  ];
+
   
   export const companies = [
     {
