@@ -13,7 +13,7 @@ export const navItems = [
       className: "lg:col-span-5 lg:row-span-2 md:col-span-6 row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-1/2 sm:h-full sm:object-cover sm:object-center",
       titleClassName: "justify-end",
-      img: "/soul2.gif",
+      img: "/soul.gif",
       spareImg: "",
     },
     {
@@ -124,7 +124,7 @@ export const navItems = [
     },
   ];
 
-  
+
   export const companies = [
     {
       id: 1,
