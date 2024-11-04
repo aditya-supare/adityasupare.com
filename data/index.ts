@@ -13,7 +13,7 @@ export const navItems = [
       className: "lg:col-span-5 lg:row-span-2 md:col-span-6 row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-1/2 sm:h-full sm:object-cover sm:object-center",
       titleClassName: "justify-end",
-      img: "/soul.gif",
+      img: "https://media.githubusercontent.com/media/aditya-supare/adityasupare.com/main/public/soul.gif",
       spareImg: "",
     },
     {
@@ -33,7 +33,7 @@ export const navItems = [
       className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-2",
       imgClassName: "w-100 h-full fade-right sm:w-70 sm:h-full",
       titleClassName: "justify-center",
-      img: "/grassvend.gif",
+      img: "https://media.githubusercontent.com/media/aditya-supare/adityasupare.com/main/public/grassvend.gif",
       spareImg: "",
     },
     {
@@ -43,7 +43,7 @@ export const navItems = [
       className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "w-full h-1/2 sm:h-full sm:object-cover sm:object-center",
       titleClassName: "justify-start",
-      img: "/sea.gif",
+      img: "https://media.githubusercontent.com/media/aditya-supare/adityasupare.com/main/public/sea.gif",
       spareImg: "/b4.svg",
     },
   
@@ -54,7 +54,7 @@ export const navItems = [
       className: "lg: col-span-1 md:col-span-3 md:row-span-2",
       imgClassName: "absolute left-0 bottom-0 md:w-96 w-60 fade-right",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/ramen.gif",
+      img: "https://media.githubusercontent.com/media/aditya-supare/adityasupare.com/main/public/ramen.gif",
       spareImg: "/grid.svg",
     },
     {
