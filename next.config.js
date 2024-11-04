@@ -8,10 +8,10 @@ await import("./src/env.js");
 const config = {
   output: 'export',
   typescript: {
-    ignoreBuildErrors: true, // This will ignore TypeScript errors
+    ignoreBuildErrors: true, 
   },
   eslint: {
-    ignoreDuringBuilds: true, // This will ignore ESLint errors during builds
+    ignoreDuringBuilds: true, 
   },
 };
 

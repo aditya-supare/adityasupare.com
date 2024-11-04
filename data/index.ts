@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "prioritizing client collaboration, fostering open communication ",
       description: "",
       className: "lg:col-span-5 lg:row-span-2 md:col-span-6 row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-1/2 sm:h-full sm:object-cover sm:object-center",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "flexible with time zone communications",
       description: "",
       className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-2",
       imgClassName: "w-full h-50 sm:h-full sm:object-cover sm:object-center",
@@ -29,7 +29,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to improve",
+      description: "constantly trying to improve",
       className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-2",
       imgClassName: "w-100 h-full fade-right sm:w-70 sm:h-full",
       titleClassName: "justify-center",
@@ -64,7 +64,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "w-full h-1/2 sm:h-full sm:object-cover sm:object-center",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/joji.gif",
+      img: "https://media.githubusercontent.com/media/aditya-supare/adityasupare.com/main/public/joji.gif",
       spareImg: "",
     },
     {
