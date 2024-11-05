@@ -7,11 +7,39 @@ import { FaLocationArrow } from 'react-icons/fa6'
 const Landing = () => {
   return (
     <div className='pb-20 pt-36'>
-        <div>
-         <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white'/>
-         <Spotlight className='top-10 left-full md:-left-32 h-[80vh] w-[50vw]' fill='purple'/>
-         <Spotlight className='top-28 left-80 h-[80vh] w-[50vw]' fill='blue'/>
-        </div>
+        <div className="relative">
+      {/* Spotlight with first color (from left to right in the palette) */}
+<Spotlight
+  className="absolute top-0 left-0 transform -translate-y-48 -translate-x-20 md:-translate-x-40 md:-translate-y-28 h-[120vh] w-[60vw]"
+  fill="#ff00aa" // First color from the palette
+/>
+
+{/* Spotlight with second color */}
+<Spotlight
+  className="absolute top-10 left-full md:left-auto md:-translate-x-40 h-[100vh] w-[70vw]"
+  fill="#d440d7" // Second color from the palette
+/>
+
+{/* Spotlight with third color */}
+<Spotlight
+  className="absolute top-32 left-80 h-[100vh] w-[60vw]"
+  fill="#a85fe6" // Third color from the palette
+/>
+
+{/* Spotlight with fourth color */}
+<Spotlight
+  className="absolute top-52 left-1/3 h-[90vh] w-[50vw]"
+  fill="#7c79ff" // Fourth color from the palette
+/>
+
+{/* Spotlight with fifth color */}
+<Spotlight
+  className="absolute top-60 left-2/3 h-[100vh] w-[55vw]"
+  fill="#5e9eff" // Fifth color from the palette
+/>
+
+    </div>
+
 
         <div className="h-screen w-full dark:bg-black-100 bg-white  
         dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0 ">
