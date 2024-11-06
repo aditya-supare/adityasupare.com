@@ -65,7 +65,7 @@ export const BackgroundBeams = React.memo(
         )}
       >
         <svg
-          className=" z-0 h-full w-full pointer-events-none absolute "
+          className=" z-0 h-full w-full pointer-events-none relative "
           width="100%"
           height="100%"
           viewBox="0 0 696 316"
@@ -84,7 +84,7 @@ export const BackgroundBeams = React.memo(
               key={`path-` + index}
               d={path}
               stroke={`url(#linearGradient-${index})`}
-              strokeOpacity="0.4"
+              strokeOpacity="0.5"
               strokeWidth="0.5"
             ></motion.path>
           ))}
