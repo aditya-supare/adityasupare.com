@@ -72,10 +72,10 @@ const Landing = () => {
                position='right'
                />
             </a>
-            <TextGenerateEffect 
+            {/* <TextGenerateEffect 
             className='text-center text-[20px] md:text-5xl lg:text-5xl'
             words='Some of my Art work'
-            />
+            /> */}
           </div>
         </div>
     </div>
